@@ -43,6 +43,6 @@ def decomposer(string):
             if (jong != 1):
                 t.append(str(unichr(jongTbl[jong]).encode("utf-8")))
     s = ''.join(t)
-    return s
+    return s.decode("utf-8")
 
 print(decomposer(u'가나다올것이왔 군ㅋㅋ@adgv'))
