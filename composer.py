@@ -20,9 +20,8 @@ UniCodeHangulLast = 0xD79F
 #                ㄸ        ㅃ      ㅉ  
 ChoOnly = [ 0x3138,  0x3143, 0x3149 ]
 #                   ㄳ      ㄵ      ㄶ       ㄺ      ㄻ      ㄼ      ㄽ      ㄾ      ㄿ      ㅀ        ㅄ    
-JongOnly = [ 0x3133, 0x3135, 0x3136, 0x313a, 0x313b, 0x313c, 0x313d, 0x313e,
-         0x313f, 0x3140, 0x3144 ]
-#                  ㅏ      ㅐ      ㅑ      ㅒ      ㅓ      ㅔ      ㅕ      ㅖ      ㅗ      ㅘ      ㅙ      ㅚ      ㅛ      ㅜ      ㅝ      ㅞ      ㅟ      ㅠ      ㅡ      ㅢ      ㅣ
+JongOnly = [ 0x3133, 0x3135, 0x3136, 0x313a, 0x313b, 0x313c, 0x313d, 0x313e, 0x313f, 0x3140, 0x3144 ]
+
 
 
 class info(object):
