@@ -91,7 +91,7 @@ def composer(string):
             t.append(ComposeChar(current))
             t.append(str(unichr(byte).encode("utf-8")))
     s = ''.join(t)
-    return s
+    return s.decode("utf-8")
 
 
 print(composer(u'ㄱㅏㄴㅏㄷㅏㅇㅗㄹㄱㅓㅅㅇㅣㅇㅘㅆ ㄱㅜㄴㅋㅋ@adgv\n'))
