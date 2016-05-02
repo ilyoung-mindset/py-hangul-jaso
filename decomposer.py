@@ -40,7 +40,7 @@ def decomposer(string):
             jong = nUniCode;
             t.append(str(unichr(choTbl[cho]).encode("utf-8")))
             t.append(str(unichr(jungTbl[jung]).encode("utf-8")))
-            if (jong != 1):
+            if (jong != 0):
                 t.append(str(unichr(jongTbl[jong]).encode("utf-8")))
     s = ''.join(t)
     return s.decode("utf-8")
